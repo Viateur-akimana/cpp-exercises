@@ -7,9 +7,7 @@ private:
     int length;
     int width;
 
-    Rectangle(){
-
-    }
+    Rectangle(){}
 public:
    int area(){
     return length * width;
@@ -25,6 +23,8 @@ class Rectangle2
 private: 
     int length;
     int width;
+    public: 
+    Rectangle2(){};
 public:
    int area(){
     return length * width;
@@ -40,10 +40,7 @@ void Rectangle2::setValues(int w,int l){
 };
 
 int main(){
-
-     Rectangle rect;
-     rect.setValues(12,32);
-    cout << "THe area is :"<< rect.area() << endl;
-
-    return 0; 
+    Rectangle2 rect;
+    rect.setValues(12,20);
+    cout << "THe are of the rectangle is:" << rect.area();
 }
