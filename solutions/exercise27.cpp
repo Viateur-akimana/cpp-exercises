@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cctype>
+#include <algorithm> 
 
 // Function to check if a string is a palindrome using built-in functions
 bool isPalindromeWithFunctions(const std::string& str) {
