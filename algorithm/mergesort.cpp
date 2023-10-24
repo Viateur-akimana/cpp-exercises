@@ -25,6 +25,7 @@ void mergeArrays(int x[],int y[],int a[],int s,int e){
            }
        }
        while(i<=mid){
+    
         a[k] = x[i];
         k++;
         i++;

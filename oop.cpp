@@ -7,7 +7,7 @@ private:
     int length;
     int width;
 
-    Rectangle(){}
+    Rectangle(int width, int length){}
 public:
    int area(){
     return length * width;
